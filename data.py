@@ -36,7 +36,7 @@ def getAll():
 
 
 def getBranched():
-    new_data  = data[:100]
+    new_data  = data[:500]
     cool = {}
     for index, row in new_data.iterrows():
         Krooz = {

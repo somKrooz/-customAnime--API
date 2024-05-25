@@ -8,7 +8,7 @@ app = FastAPI()
 
 class Post(BaseModel):
     title: str
-    isCool: Optional[bool] =True
+    isCool: Optional[bool] = True
 
 #Give me my money
 @app.get('/')
